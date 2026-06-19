@@ -138,13 +138,20 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-white/10 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="border-t border-white/10 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-sm text-white/40">
-            &copy; {new Date().getFullYear()} O&apos;Resto Pizza. All rights
-            reserved.
+            &copy; {new Date().getFullYear()} O&apos;Resto Pizza. All rights reserved.
           </p>
-          <p className="text-sm text-white/40">
-            Crafted with passion in Gujranwala, Pakistan
+          <p className="text-sm text-white/25">
+            Designed &amp; built by{" "}
+            <a
+              href="https://hassanrazadev.tech"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-secondary/70 hover:text-secondary transition-colors font-medium"
+            >
+              Hassan Raza
+            </a>
           </p>
         </div>
       </div>
